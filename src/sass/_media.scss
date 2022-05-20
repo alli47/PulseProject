@@ -1,0 +1,55 @@
+@media (max-width: 991px) {
+	.promo {
+		padding: 21px 10px 93px 10px;
+			&__header {
+			font-size: 38px;
+		}
+		&__subheader {
+			font-size: 21.5px;
+		}
+		&__icons {
+			width: 410px;
+		}
+		&__icon {
+			font-size: 13px;
+			width: 105px;
+		}
+		&__link {
+			font-size: 14px;
+		}
+	}
+
+	.header {
+		&__logo {
+			width: 225px;
+		}
+		&__official {
+			font-size: 11px;
+			span {
+				font-size: 16px;
+			}
+		}
+		&__phone {
+			font-size: 16px;
+		}
+	}
+	
+	.button {
+		width: 135px;
+		font-size: 11px;
+		
+		&_main {
+			width: 260px;
+			font-size: 14px;
+		}
+	}
+	.advantages {
+		padding: 70px 10px 80px 10px;
+		&__subtitle {
+			font-size: 16px;
+		}
+		&__descr {
+			font-size: 12px;
+		}
+	}
+}
