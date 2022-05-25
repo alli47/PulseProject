@@ -1,0 +1,45 @@
+.carousel {
+	padding: 81px 0;
+	&__inner {
+		width: 750px;
+		margin: 0 auto;
+	}
+	.slick-prev, .slick-next {
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		left: -66px;
+		border: none;
+		background-color: #fff;
+		img {
+			width: 31px;
+			height: 50px;
+		}
+	}
+	.slick-next {
+		right: -66px;
+		left: auto;
+	}
+	.slick-dots {
+		text-align: center;
+		display: flex; // поставить кнопки в ряд
+		justify-content: center; // выровнять по центру
+		list-style: none; // убираем черные маркеры
+		margin-top: 30px;
+	}
+	.slick-dots button {
+		font-size: 0;
+		background: $main-color; // цвет фона
+		border: none; // без рамки
+		border-radius: 50%; // радиус закругления
+		height: 15px; // высота точки
+		width: 15px; // ширина точки
+		margin: 5px; // отступы между точками
+		outline: none; // убираем обводку
+		transition: 1s ;
+	}
+	.slick-dots li[class="slick-active"] button {
+		height: 20px;
+		width: 20px;
+	}
+}
